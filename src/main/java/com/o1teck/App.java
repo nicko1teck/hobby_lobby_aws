@@ -102,11 +102,7 @@ public class App extends SpringBootServletInitializer implements WebMvcConfigure
 	
 
 	
-	// BCrypt password encoding
-	@Bean
-	PasswordEncoder getEncoder() {
-		return new BCryptPasswordEncoder();
-	}
+	
 
 	@Bean
 	PolicyFactory getUserHtmlPolicy() {
