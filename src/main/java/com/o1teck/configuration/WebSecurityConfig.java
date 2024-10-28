@@ -92,7 +92,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 			.permitAll();
 		//@formatter.on
 	
-
+	}
 	
 	
 	
