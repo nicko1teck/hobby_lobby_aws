@@ -91,12 +91,10 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 		.logout()
 			.permitAll();
 		//@formatter.on
-	}
 	
-	@Bean
-	public PasswordEncoder passwordEncoder() {
-	    return new BCryptPasswordEncoder();
-	}
+
+	
+	
 	
 	@Override
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
